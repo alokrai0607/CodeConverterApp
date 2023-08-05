@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Code Converter App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Code Converter App</h1>
+    <label for="languageSelect">Select Language:</label>
+    <select id="languageSelect">
+      <option value="javascript">JavaScript</option>
+      <option value="python">Python</option>
+      <option value="python">Java</option>
+      <option value="python">Javascript</option>
+      <option value="python">C++</option>
+      <!-- Add more language options as needed -->
+    </select>
+    <textarea id="codeInput" placeholder="Enter your code here"></textarea>
+    <button id="convertBtn">Convert</button>
+    <button id="debugBtn">Debug</button>
+    <button id="qualityCheckBtn">Quality Check</button>
+    <div id="response" class="response"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
