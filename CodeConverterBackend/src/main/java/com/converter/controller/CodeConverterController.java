@@ -28,7 +28,8 @@ public class CodeConverterController {
     private String callChatGPTAPI(String source, String target, String code) {
         // Replace the following values with your actual API endpoint and authentication details
         String apiUrl = "https://api.chatgpt.com/convert";
-        String apiKey = "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\r\n"
+        
+        String apiKey = "Your Key"
         		+ "";
 
         RestTemplate restTemplate = new RestTemplate();
